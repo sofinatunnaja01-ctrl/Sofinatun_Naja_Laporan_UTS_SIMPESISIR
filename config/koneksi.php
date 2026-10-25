@@ -1,12 +1,11 @@
 <?php
-// Konfigurasi aplikasi & database. Sesuaikan dengan lingkungan lokal Anda.
-define('BASE_URL', '/simpesisir');   // nama folder di htdocs
+define('BASE_URL', '/simpesisir');   
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', '');               // XAMPP default kosong
+define('DB_PASS', '');               
 define('DB_NAME', 'db_simpesisir');
 
-ini_set('display_errors', '0');      // jangan tampilkan error ke pengguna
+ini_set('display_errors', '0');   
 ini_set('log_errors', '1');
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 

@@ -1,5 +1,4 @@
 -- SIMPESISIR: Sistem Informasi Pencatatan Pengamatan Ekosistem Pesisir
--- Jalankan lewat phpMyAdmin (tab Import) atau: mysql -u root -p < database.sql
 
 CREATE DATABASE IF NOT EXISTS db_simpesisir
   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
